@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --black--full: black;
+    --silver: #1E1E1E;
+    --red: #E60000;
+    --white--full: #ffffff;
+    --silver--low: #D9D9D9;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.logo {
+    margin-left: 24px;
+}
+
+.cabecalho__menu a {
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #E60000;
+}
+
+.cabecalho__menu {
+    margin-right: 12px;
+}
+
+.apresentacao__conteudo {
+    background-image: url(../assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    padding-left: 40px;
+    height: 50vh;
+}
+
+.apresentacao__titulo {
+    color: #ffffff;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 42px;
+
+
+}
+
+.apresentacao__conteudo__texto {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: var(--silver--low);
+    text-align: unset;
+    padding-top: 12px;
+    line-height: 24px;
+}
+
+.projetos__titulo {
+    margin-left: 80px;
+    margin-top: 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.conteiner_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.apresentacao__conteudo__titulos {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 24px;
+
+}
+
+.conteudo_img{
+    width: 100%;
+    height: auto;
+}
+
+.conteudo_texto {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    padding: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer {
+    display: flex; 
+    background-color: #1E1E1E;
+    height: 200px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 42px;
+    color: #D9D9D9;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}   
+
+.link__footer{
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.link__footer a{
+    text-decoration: none;
+    color: #E60000;
+}
+
+.texto__footer{
+
+}
+
+.conteiner__about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    height: 50vh;
+}
+
+.apresentacao__about__conteudo{
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.apresentacao__about__sobre{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.apresentacao__about__texto{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    line-height: 24px;
+    
+}
+
+.apresentacao__about__titulo{
+    
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.apresentacao__texto{
+    font-family: "Inter", sans-serif;
+    line-height: 32px;
+    padding-top: 24px;
+    font-size: 18px;
+    
+    
+}
+
+.apresentacao__curiosidade{
+    
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.apresentacao__curiosidade___text{
+   
+    padding-bottom: 42px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.apresentacao__contato__titulo{
+    font-family: "Inter", sans-serif;
+    padding-left: 22%;
+    padding-top: 32px;
+    font-size: 42px;
+
+}
+
+.apresentacao__contato__texto{
+    font-family: "Inter", sans-serif;
+    padding-left: 22%;
+    padding-top: 32px;
+    font-size: 24px;
+  
+}
+
+input{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+   
+}
+
+.about__texto{
+    display: flex;
+    margin-left: 17%;
+    flex-direction: column;
+}
+
+form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    width: 40%;
+    border-color: red;
+    height: 750px;
+}
+
+input {
+    margin-top: 12px;
+}
+
+label {
+    padding: 30px;
+}
+
+input[type="submit"]{
+    color:white;
+    background: #E60000;
+}
+
+.apresentacao__contato__texto{
+    font-family: "Inter", sans-serif;
+    width: 55%;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+@media (min-width: 550px) and (max-width:800px) {
+    .apresentacao__conteudo__imagem img {
+        width: 250px;
+    }
+
+    .apresentacao__conteudo__titulo{
+        font-size: 32px;
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: 16px;
+    }
+
+    .conteiner__about div figure img {
+        width: 250px;
+    }
+
+    .conteiner__about{
+        flex-direction: column;
+    }
+    .apresentacao__about__conteudo{
+        font-size: 32px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .apresentacao__about__sobre{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .apresentacao__about__texto{
+        font-size: 16px;
+        width: 80%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about__texto{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25%;
+        margin-left: 20px;
+    }
+}   
+
+@media (min-width: 360px) and (max-width:700px) {
+    .apresentacao__conteudo__imagem img {
+        width: 150px;
+    }
+
+    .apresentacao__conteudo__titulo{
+        font-size: 24px;
+        width: 90%;
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: 12px;
+        width: 90%;
+    }
+    
+   
+    .apresentacao__conteudo{
+        flex-direction: column;
+        
+    }
+
+    .conteiner_img{
+        grid-template-columns: 1fr;
+     }
+
+    nav a{
+        font-size: 12px;
+    }
+
+    .conteiner__about div figure img {
+        width: 250px;
+    }
+
+    .conteiner__about{
+        flex-direction: column;
+    }
+    .apresentacao__about__conteudo{
+        font-size: 32px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .apresentacao__about__sobre{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .apresentacao__about__texto{
+        font-size: 16px;
+        width: 80%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about__texto{
+        display: flex;
+        flex-direction: column;
+        padding-top: 60%;
+        margin-left: 20px;
+    }
+
+
+}
